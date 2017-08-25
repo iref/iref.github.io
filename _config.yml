@@ -7,65 +7,29 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Stories from Devs No Men Land"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+name                     : "Jan Ferko"
+description              : "Developers blog."
+url                      : "http://janferko.me"
+baseurl                  : "/"
+repository               : "iref/iref.github.io"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "feed.xml"
 
 # SEO Related
 google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username               : "janferko"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" 
+  name                   : "Jan Ferko" 
   links: # An array of links to social media profiles
 
 # Analytics
@@ -77,35 +41,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  name             : "Jan Ferko"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Just a curious developer."
+  location         : "Brno, CZ"
+  uri              : "http://janferko.me"
+  github           : "iref"
+  twitter          : "janferko"
 
 
 # Reading Files
